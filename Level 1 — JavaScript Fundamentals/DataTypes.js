@@ -93,3 +93,70 @@ Null      → Intentionally empty
 Symbol    → Unique identifier
 
 */
+
+/*
+
+Non-Primitive Data Types 
+
+Non-primitive data types are data types that can store multiple values or complex data and are stored/referenced through objects.
+
+বাংলা:
+Non-primitive data type হলো এমন data type যা একাধিক value বা complex data ধারণ করতে পারে। এগুলো JavaScript-এ reference type হিসেবেও পরিচিত।
+
+        প্রধান Non-Primitive Types
+        1. Object
+        2. Array
+        3. Function
+
+
+    1. Object
+    An Object is a collection of data stored as key-value pairs.
+
+    Object হলো এমন একটি data structure যেখানে data key-value pair আকারে রাখা হয়।
+
+    const person = {
+        name: "Rashidul",
+        age: 25,
+        city: "Dhaka"
+    };
+
+    এখানে
+    name → "Rashidul"
+    age  → 25
+    city → "Dhaka"
+    name, age, city হলো keys এবং "Rashidul", 25, "Dhaka" হলো values।
+
+NOTE: Object নিয়ে বিস্তারিত পড়ব Object Chapter এ।
+
+    2. Array
+    An Array is an ordered collection of multiple values.
+
+    Array হলো একটি ordered collection, যেখানে একসাথে একাধিক value রাখা যায়
+
+        const fruits = ["Apple", "Mango", "Banana"];
+
+    এখানে:
+        Index 0 → Apple
+        Index 1 → Mango
+        Index 2 → Banana
+        Array-এর index সাধারণত 0 থেকে শুরু হয়।
+
+NOTE: Array নিয়ে বিস্তারিত পড়ব Array Chapter এ।
+
+    
+
+    3. Function
+    A Function is a reusable block of code to perform a specific task.
+
+    Function হলো এমন একটি reusable code block, যা কোনো নির্দিষ্ট কাজ সম্পন্ন করার জন্য তৈরি করা হয়।
+
+        function add(a, b) {
+        return a + b;
+        }
+
+        console.log(add(10, 20));
+
+
+NOTE: Function নিয়ে বিস্তারিত পড়ব Function Chapter এ।
+
+*/
