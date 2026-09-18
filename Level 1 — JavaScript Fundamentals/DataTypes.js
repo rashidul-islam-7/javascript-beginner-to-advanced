@@ -157,6 +157,22 @@ NOTE: Array নিয়ে বিস্তারিত পড়ব Array Chapter এ
         console.log(add(10, 20));
 
 
-NOTE: Function নিয়ে বিস্তারিত পড়ব Function Chapter এ।
+NOTE: Function নিয়ে বিস্তারিত পড়ব Function Chapter এ
+
+*/
+
+/*
+
+    Primitive vs Non-Primitive
+
+    Primitive Data Type:
+    A primitive data type represents a single, simple value and is immutable.
+
+    বাংলা: Primitive data type একটি single/simple value ধারণ করে এবং এর value পরিবর্তন করা যায় না।
+
+    Non-Primitive Data Type:
+    A non-primitive data type represents complex or multiple values and is stored/referenced by reference.
+
+    বাংলা: Non-primitive data type complex বা একাধিক value ধারণ করতে পারে এবং reference-এর মাধ্যমে সংরক্ষিত/ব্যবহৃত হয়।
 
 */
